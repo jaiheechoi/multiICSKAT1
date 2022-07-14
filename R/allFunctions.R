@@ -1622,7 +1622,7 @@ multiICSKAT_p_general <- function(nullFit, xDats, lt_all, rt_all, Itt, a1, a2, G
 gen_mICSKAT_dat <- function(bhFunInv, obsTimes = 1:3, windowHalf = 0.5, n, k, tauSq, gMatCausal, effectSizes) {
   
   # true model has nothing
-  fixedMat <- matrix(data=0, nrow=n, ncol=K)
+  fixedMat <- matrix(data=0, nrow=n, ncol=k)
   
   # get genetic effects
   geneticVec <- c()
